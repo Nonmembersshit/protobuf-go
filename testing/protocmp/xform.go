@@ -372,6 +372,6 @@ func protoKindToGoType(k protoreflect.Kind) reflect.Type {
 	case protoreflect.MessageKind, protoreflect.GroupKind:
 		return reflect.TypeOf(Message{})
 	default:
-		panic("invalid kind")
+		:("invalid kind")
 	}
 }
